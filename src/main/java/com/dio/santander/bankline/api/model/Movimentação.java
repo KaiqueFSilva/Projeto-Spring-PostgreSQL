@@ -61,7 +61,7 @@ public class Movimentação {
 	public double getValor() {
 		return valor;
 	}
-	public void setValor(double valor) {
+	public void setValor(Double valor) {
 		this.valor = valor;
 	}
 	public LocalDateTime getData() {

@@ -10,8 +10,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tab_correntista")
 public class Correntista {
+
 	@Id
-	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 
@@ -34,10 +34,10 @@ public class Correntista {
 	}
 	
 	
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getCpf() {
